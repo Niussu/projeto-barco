@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro de barcos</title>
+    </head>
+    <body>
+        <form action="../actions_php/register.php" method="POST">
+            <label for="manufacturer"></label>
+            <input type="text" name="manufacturer" id="manufacturer" placeholder="Fabricante..."><br>
+
+            <label for="model"></label>
+            <input type="text" name="model" id="model" placeholder="Modelo..."><br>
+
+            <label for="optional_descriptional"></label>
+            <input type="text" name="optional_description" id="optional_description" placeholder="Descrição opcional..."><br>
+
+            <label for="color"></label>
+            <input type="text" name="color" id="color" placeholder="Cor..."><br>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </form>
+    </body>
+</html>

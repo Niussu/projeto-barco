@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="../actions_php/change.php" method="POST">
+        <label for="id"></label>
+        <input type="number" name="id" id="id" placeholder="Digite o id do barco..."><br>
+        <label for="characteristics">Valor para alterar:</label>
+        <select name="characteristics" id="characteristics">
+            <option value="model">Modelo</option>
+            <option value="manufacturer">Fabricante</option>
+            <option value="optional_description">Descrição</option>
+            <option value="color">Cor</option>
+        </select><br>
+        <label for="new_value"></label>
+        <input type="text" name="new_value" id="new_value" placeholder="Digite o novo valor..."><br>
+        <button type="submit">Alterar</button>
+        <button type="reset">Limpar</button>
+    </form>
+</body>
+</html>
