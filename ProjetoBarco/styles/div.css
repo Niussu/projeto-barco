@@ -1,0 +1,22 @@
+div{
+    text-align: center;
+    display: block;
+    width: 300px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgb(155, 155, 155);
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+button:hover{
+    background-color: rgb(128, 128, 128);
+}
